@@ -1,4 +1,4 @@
-const withExportImages = require('../../dist/index')
+const withExportImages = require('../../dist')
 
 const config = {
   reactStrictMode: true,

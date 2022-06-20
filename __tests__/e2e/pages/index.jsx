@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from 'react'
 
+import { registerImage } from '../../../dist/api'
 import Image from '../../../dist/image'
 import clientOnlySrc from '../images/client-only.png'
 import imgSrc from '../images/img.png'
+
+  // registerImage({ src: clientOnlySrc })
 
 const IndexPage = () => {
   const [isClient, setIsClient] = useState(false)
   useEffect(() => {
     setIsClient(true)
   }, [])
+
+  registerImage({ src: clientOnlySrc })
 
   return (
     <div>

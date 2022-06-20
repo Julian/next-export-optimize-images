@@ -1,7 +1,7 @@
 import React from 'react'
 
 /**
- * @param {import('next/app').AppProps} param0
+ * @param {import('next/app').AppProps} param
  * @returns
  */
 function MyApp({ Component, pageProps }) {

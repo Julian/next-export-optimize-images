@@ -21,6 +21,8 @@ const files = [
   'og_3840_75.webp',
   '_next/static/media/client-only.8a5ad2fe_1920_75.webp',
   '_next/static/media/client-only.8a5ad2fe_3840_75.webp',
+  '_next/static/media/dynamic.8a5ad2fe_1920_75.webp',
+  '_next/static/media/dynamic.8a5ad2fe_3840_75.webp',
 ]
 
 describe('`next build && next export && next-export-optimize-images` is executed correctly', () => {

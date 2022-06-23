@@ -5,8 +5,6 @@ import Image from '../../../dist/image'
 import clientOnlySrc from '../images/client-only.png'
 import imgSrc from '../images/img.png'
 
-  // registerImage({ src: clientOnlySrc })
-
 const IndexPage = () => {
   const [isClient, setIsClient] = useState(false)
   useEffect(() => {
@@ -29,6 +27,7 @@ const IndexPage = () => {
       {/* External image */}
       <Image src="https://next-export-optimize-images.vercel.app/og.png" width={1920} height={1280} />
 
+      {/* Client only image */}
       {isClient && <Image src={clientOnlySrc} />}
     </div>
   )
